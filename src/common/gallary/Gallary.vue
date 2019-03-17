@@ -62,7 +62,7 @@ export default {
     .wrapper
       height: 0
       width: 100%
-      padding-bottom: 100%
+      padding-bottom: 66%
       /*background: red*/
       .gallary-img
         width: 100%
