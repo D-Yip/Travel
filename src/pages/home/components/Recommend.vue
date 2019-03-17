@@ -17,30 +17,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      list: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201403/07/30b534b0de51ccac2906bcb6ba159988.jpg_200x200_2f08733b.jpg',
-        title: '长隆野生动物世界',
-        desc: '一个值得去的地方，真的是超级棒'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1603/3c/3c514c20a740128b90.water.jpg_200x200_c7102a23.jpg',
-        title: '南沙百万葵园',
-        desc: '一个值得去的地方，真的是超级棒'
-      }, {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1410/20/41d723daadc98045fe6b7283ba0af40c.jpg_200x200_5a05d5bc.jpg',
-        title: '碧水湾温泉度假村',
-        desc: '非常棒'
-      }, {
-        id: '0004',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1411/31/74eabd4dc95afd494d92a5006c9ad4f5.water.jpg_200x200_b27fe752.jpg',
-        title: '美林湖温泉',
-        desc: '美丽温泉'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
