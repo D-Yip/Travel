@@ -21,6 +21,19 @@ export default new Router({
       name: 'Detail',
       component: Detail
     }
+    // { //项目代码JS达到1M意思在使用异步组件
+    //   path: '/',
+    //   name: 'Home',
+    //   component: () => import('../pages/home/Home')
+    // }, {
+    //   path: '/city',
+    //   name: 'City',
+    //   component: () => import('../pages/city/City')
+    // }, {
+    //   path: '/detail/:id',
+    //   name: 'Detail',
+    //   component: () => import('../pages/detail/Detail')
+    // }
   ],
   scrollBehavior (to, from, savedPosition) {
     return { x: 0, y: 0 }
